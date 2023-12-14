@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lavenderblush;
+}
+#logo-facebook {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+#logo-youtube{
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+#logo-twitter {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+#logo-toshiba {
+    width: 40%;
+}
+
+/* #imgtv {
+    width: 400px;
+    height: 400px;
+}
+
+#imglaptop {
+    width: 400px;
+    height: 400px;
+}
+
+#discosduros {
+    width: 400px;
+    height: 400px;
+}
+#impresoras {
+    width: 400px;
+    height: 400px;
+}
+
+#focos {
+    width: 400px;
+    height: 400px;
+}
+
+#accesorios {
+    width: 400px;
+    height: 400px;
+} */
+
+nav ul{
+    float: left;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 10px;
+    float: left;
+}
+
+.laptop_w8 {
+    width: 200px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 20px;
+    margin-bottom: 2cm;
+}
+
+.spotify {
+    width: 200px;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 20px;
+}
+.father {
+    margin: 2cm;
+}
+
+footer {
+    padding: 20px 0px 20px 0px;
+    background-color: slategray;
+    border-radius: 5px;
+}
+
+footer ul {
+    float: left;
+}
+
+footer ul li {
+    list-style: none;
+    padding-left: 20px;
+    float: left;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 20px;
+}
